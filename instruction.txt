@@ -20,6 +20,16 @@ git push origin master
 Username for 'https://github.com': ....
 Password
 
- git checkout -b dev
+git checkout -b dev
+git push origin dev
 
 git log --all --decorate --oneline --graph
+
+nano j.txt
+git add j.txt 
+git commit -a
+
+git checkout master
+nano j.txt
+git add j.txt 
+git commit -a
