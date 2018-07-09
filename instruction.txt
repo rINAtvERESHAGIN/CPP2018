@@ -5,6 +5,9 @@ git clone https://github.com/...../CPP2018.git
 git config --global user.name "im"
 git config --global user.email im@im.im
 
+Windows
+git config --global core.editor "'C:\Windows\System32\notepad.exe'"
+
 cd CPP2018
 gedit sjkj.txt
 
@@ -13,4 +16,7 @@ git commit
 nano sjkj.txt
 git commit -a
 
-git config --global core.editor "'C:\Windows\System32\notepad.exe' -multiInst -nosession"
+git push origin master
+Username for 'https://github.com': ....
+Password
+
