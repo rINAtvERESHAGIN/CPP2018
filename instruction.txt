@@ -33,3 +33,7 @@ git checkout master
 nano j.txt
 git add j.txt 
 git commit -a
+git merge dev
+nano j.txt ИЗМЕНИЛ УДАЛИЛ НЕНУЖНЫЕ СТРОКИ
+git commit -a
+git push origin master dev
