@@ -1,0 +1,39 @@
+https://github.com/imitrichev/CPP2018
+
+git clone https://github.com/...../CPP2018.git
+
+git config --global user.name "im"
+git config --global user.email im@im.im
+
+Windows
+git config --global core.editor "'C:\Windows\System32\notepad.exe'"
+
+cd CPP2018
+gedit sjkj.txt
+
+git add sjkj.txt
+git commit
+nano sjkj.txt
+git commit -a
+
+git push origin master
+Username for 'https://github.com': ....
+Password
+
+git checkout -b dev
+git push origin dev
+
+git log --all --decorate --oneline --graph
+
+nano j.txt
+git add j.txt 
+git commit -a
+
+git checkout master
+nano j.txt
+git add j.txt 
+git commit -a
+git merge dev
+nano j.txt ИЗМЕНИЛ УДАЛИЛ НЕНУЖНЫЕ СТРОКИ
+git commit -a
+git push origin master dev
